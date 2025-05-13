@@ -43,7 +43,7 @@ example_agent = Agent(
     role="ESLint test‑case creator",
     goal="Produce thorough positive/negative snippets for a rule.",
     backstory="You are a senior JS dev writing exhaustive ESLint tests.",
-    llm=LLM("openai/gpt-4o"),
+    llm=LLM("openrouter/openai/gpt-4o"),
 )
 
 """
