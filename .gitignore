@@ -1,0 +1,6 @@
+**/node_modules/
+.env
+**/.venv/
+**/.vitepress/cache
+create_lint_rule/src/create_lint_rule/generated/
+**/__init__.py
