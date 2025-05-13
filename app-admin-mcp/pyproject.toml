@@ -1,0 +1,20 @@
+[project]
+name = "app-admin"
+version = "0.1.0"
+description = "Admin functionalities for a CRM app"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+ "fastmcp>=2.3.3",
+ "mcp>=1.8.0",
+]
+[[project.authors]]
+name = "Max Gfeller"
+email = "max@sutro.xyz"
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project.scripts]
+app-admin = "app_admin:main"
